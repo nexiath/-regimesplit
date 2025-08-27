@@ -40,6 +40,17 @@ regimesplit folds --csv examples/series.csv --ret-col ret --n-splits 5 --embargo
 - **🛠️ CLI Interface**: Easy-to-use command-line tools for analysis
 - **🔬 sklearn Compatible**: Drop-in replacement for standard cross-validation
 
+## For Hiring Managers
+
+Use-case: Validating ML models for financial time series.
+- Prevents regime leakage across folds
+- Embargo & purge ensure realistic OOS tests
+- sklearn-compatible for plug-and-play integration
+
+**CV Snippet:**
+> Built RegimeSplit: a volatility/regime-aware CV splitter for financial ML backtesting (sklearn-compatible, embargo/purge, CLI + HTML reports).
+
+
 ## Quick Start
 
 ### Cross-Validation for ML Backtesting
