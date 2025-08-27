@@ -4,9 +4,9 @@ build-backend = "hatchling.build"
 
 [project]
 name = "regimesplit"
-version = "0.1.0"
+version = "0.1.1"
 description = "A Python package for regime detection and splitting in time series data"
-authors = [{name = "Author", email = "author@example.com"}]
+authors = [{name = "Robin CASSARD", email = "robin.cassard39@gmail.com"}]
 license = {text = "MIT"}
 readme = "README.md"
 requires-python = ">=3.8"
@@ -34,8 +34,8 @@ dependencies = [
 regimesplit = "regimesplit.cli:main"
 
 [project.urls]
-Homepage = "https://github.com/username/regimesplit"
-Repository = "https://github.com/username/regimesplit"
+Homepage = "https://github.com/nexiath/regimesplit"
+Repository = "https://github.com/nexiath/regimesplit"
 
 [tool.hatch.version]
 path = "src/regimesplit/__init__.py"
