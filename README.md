@@ -1,10 +1,13 @@
 # RegimeSplit
 
-A volatility/regime-aware cross-validation splitter for time-series ML backtests (embargo & purge included). Avoids splitting across regime boundaries.
+A volatility/regime-aware cross-validation splitter for financial time-series ML backtests.  
+Prevents leakage by **never splitting across regime boundaries**, with built-in **embargo & purge**.  
+Includes CLI tools, HTML reports, and sklearn compatibility.
 
 [![PyPI version](https://img.shields.io/pypi/v/regimesplit.svg)](https://pypi.org/project/regimesplit/)
 [![Python versions](https://img.shields.io/pypi/pyversions/regimesplit.svg)](https://pypi.org/project/regimesplit/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Downloads](https://static.pepy.tech/badge/regimesplit)](https://pepy.tech/project/regimesplit)
 
 
 ## Install
