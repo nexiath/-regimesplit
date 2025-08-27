@@ -9,7 +9,6 @@ Includes CLI tools, HTML reports, and sklearn compatibility.
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Downloads](https://static.pepy.tech/badge/regimesplit)](https://pepy.tech/project/regimesplit)
 
-
 ## Install
 ```bash
 pip install -e .
@@ -34,14 +33,14 @@ regimesplit folds --csv examples/series.csv --ret-col ret --n-splits 5 --embargo
 
 ## Features
 
-- **🎯 Regime-Aware Splitting**: Detects volatility regimes and never splits within regime segments
-- **⏰ Temporal Constraints**: Built-in embargo and purge to prevent look-ahead bias
-- **📊 Multiple Detection Methods**: Quantile-based and K-means clustering for regime identification
-- **🔍 Realized Volatility**: Uses rolling standard deviation for regime detection
-- **📈 Rich Visualization**: Timeline plots showing regimes and train/test splits
-- **📋 HTML Reports**: Professional reports with interactive visualizations
-- **🛠️ CLI Interface**: Easy-to-use command-line tools for analysis
-- **🔬 sklearn Compatible**: Drop-in replacement for standard cross-validation
+- ** Regime-Aware Splitting**: Detects volatility regimes and never splits within regime segments
+- ** Temporal Constraints**: Built-in embargo and purge to prevent look-ahead bias
+- ** Multiple Detection Methods**: Quantile-based and K-means clustering for regime identification
+- ** Realized Volatility**: Uses rolling standard deviation for regime detection
+- ** Rich Visualization**: Timeline plots showing regimes and train/test splits
+- ** HTML Reports**: Professional reports with interactive visualizations
+- ** CLI Interface**: Easy-to-use command-line tools for analysis
+- ** sklearn Compatible**: Drop-in replacement for standard cross-validation
 
 ## For Hiring Managers
 
