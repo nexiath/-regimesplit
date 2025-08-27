@@ -2,6 +2,11 @@
 
 A volatility/regime-aware cross-validation splitter for time-series ML backtests (embargo & purge included). Avoids splitting across regime boundaries.
 
+[![PyPI version](https://img.shields.io/pypi/v/regimesplit.svg)](https://pypi.org/project/regimesplit/)
+[![Python versions](https://img.shields.io/pypi/pyversions/regimesplit.svg)](https://pypi.org/project/regimesplit/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
+
 ## Install
 ```bash
 pip install -e .
